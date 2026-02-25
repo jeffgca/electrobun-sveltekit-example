@@ -1,0 +1,26 @@
+node_modules
+src/mainview/node_modules
+
+# Output
+src/mainview/.output
+src/mainview/.vercel
+src/mainview/.netlify
+src/mainview/.wrangler
+src/mainview/.svelte-kit
+src/mainview/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+# Playwright
+test-results
