@@ -22,25 +22,13 @@ const url = await getMainViewUrl();
 const _data = [
   {
     id: 1,
-    name: "Bun",
-    description: "Bun is a fast all-in-one JavaScript runtime.",
-    url: "https://bun.sh",
-    image: "https://bun.sh/favicon.ico",
-    features: ["Fast JavaScript and TypeScript execution", "Built-in bundler and transpiler", "Native support for npm packages", "Efficient file system access", "Integrated testing framework"],
-    links: [
-      { name: "GitHub", url: "" },
-      { name: "Documentation", url: "https://bun.sh/docs" },
-      { name: "Blog", url: "https://bun.sh/blog" },
-    ],
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    tags: ["runtime", "javascript", "typescript", "bundler", "transpiler"],
-    metadata: {
-      stars: 5000,
-      forks: 300,
-      issues: 50,
-      pullRequests: 20,
-    },
+    name: "Item 1",
+    description: "This is the first item.",
+  },
+  {
+    id: 2,
+    name: "Item 2",
+    description: "This is the second item.",
   },
 ];
 
