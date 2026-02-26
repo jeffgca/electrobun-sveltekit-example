@@ -8,6 +8,7 @@ src/mainview/.netlify
 src/mainview/.wrangler
 src/mainview/.svelte-kit
 src/mainview/build
+build
 
 # OS
 .DS_Store
