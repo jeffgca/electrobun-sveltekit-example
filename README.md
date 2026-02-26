@@ -14,19 +14,14 @@ $ cd ../../ && bun run dev:hmr
 
 - builds ( `bun start` )
 - dev / hmr mode ( `bun run dev:hmr` )
+- IPC example for SK's data loading utilities
 
 ## TODO:
 
 - always open devtools?
-- IPC example for SK's data loading utilities
 - examples that integrate with EB's native OS integrations
 - moar
 
 ## Bugs
 
 - I'm using shell scripts to run the sveltekit app's embedded commands, probably a nicer way to do that. Currently you need to hit CMD+c twice to fully exit from `bun run dev:hmr`
--
-
-```
-
-```
